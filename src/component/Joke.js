@@ -25,8 +25,8 @@ const Joke = () => {
     }, [])
     
   return (
-    <div className='--flex-center  --100vh'>
-        <div className='container'>
+    <div className='--flex-center  --100vh --bg-primary' >
+        <div className='container   --bg-light'>
             <h1>Jokes Generator</h1>
             <div className='--line'></div>
             {isLoading ? ( 
